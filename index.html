@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letter of Credit Services - Corporate Banking</title>
+    <meta name="description" content="Streamline your international trade with our comprehensive Letter of Credit services for corporate banking customers.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <a href="/" class="logo"><img src="BIDV LOGO.png" alt="Company Logo"></a>
+            <div class="header-contact">
+                <i class="fas fa-phone-alt"></i> <span>1900 9247</span>
+            </div>
+        </div>
+    </header>
+    
+    <main class="main-content">
+        <div class="container">
+            <section class="hero">
+                <h1>Streamline Your International Trade</h1>
+                <p>Our Letter of Credit services provide secure, efficient solutions for your global business transactions. Complete the form below to get started with our specialized corporate banking services.</p>
+            </section>
+            
+            <section class="form-container">
+                <div class="form-steps">
+                    <div class="step active" id="step1">
+                        1
+                    </div>
+                    <div class="step" id="step2">
+                        2
+                    </div>
+                    <div class="step" id="step3">
+                        3
+                    </div>
+                    <div class="step" id="step4">
+                        4
+                    </div>
+                </div>
+                
+                <form id="OnLineLeadForm" method="post" action="https://presales.businessbywire.com/appgts/ProcessAnonymous/OnlineLeadCapture?x=25xgkuqlsapsn67x4pygd2jkrwdyp4hcetpaxu894fem7l4ffer529gq2ceg7jzu3pp97za5n4vgqmakmdqr38ufg54pdk4m8knjllbdkwa9xmb9c7aq">
+                    <input type="hidden" name="debug" value="1" />
+                    <input type="hidden" name="debugEmail" value="james@crmnext.com" />
+                    <input type=hidden name="SuccessReturnURL" value="http://www.google.com" />
+                    <input type=hidden name="FailureReturnURL" value="http://www.google.com" />
+                    <input type="hidden" name="LE_COMPANY" value="DHG Pharmaceutical" />
+                    <input type="hidden" name="EMAIL" value="dhgpharma@dhgpharma.com.vn" />
+                    <input type="hidden" name="LE_MOBILE" value="2923890802" /> 
+                    <select id="Product" name="Product" onchange="UpdateProductName();" style="display: none;" >
+                        <option value= "1222">Letter of Credit</option> 
+                    </select>
+                    <input type="hidden" id="LeadRating" name="LeadRating" value="Hot" />
+                    <select id="Layout" name="Layout" style="display: none;">
+                        <option value= "102565">Letter Of Credit</option>
+                    </select>
+                    <select id="StatusCode" name="StatusCode" style="display: none;">
+                        <option value="101437">New</option>
+                    </select>
+                    <!-- Step 1: Business Information -->
+                    <div class="form-step active">
+                        <h2>Business Information</h2>
+                        <p>Tell us about your company to help us provide tailored Letter of Credit services.</p>
+                        
+                        <div class="form-group">
+                            <label for="LName">Customer Name</label>
+                            <input type="text" id="LName" name="LName" class="form-control">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="cust_5130">Business Registration Number</label>
+                            <input type="text" id="cust_5130" name="cust_5130" class="form-control">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="address">Business Address</label>
+                            <input type="text" id="address" name="address" class="form-control">
+                            <div class="error-message">Please enter your business address</div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="customersegment">Customer Segment</label>
+                            <select id="customersegment" name="customersegment" class="form-control">
+                                <option value="">Select Segment</option>
+                                <option value="Sole Proprietorship">Small and Medium</option>
+                                <option value="Partnership">General FDI</option>
+                                <option value="Limited Liability Company">Micro Enterprise</option>
+                                <option value="Corporation">VIP/VVIP FDI Companies</option>
+                                <option value="Other">Corporation, General Companies</option>
+                            </select>
+                            <div class="error-message">Please select your business type</div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service Branch</label>
+                            <input type="text" id="service" name="service" class="form-control">
+                            <div class="error-message">Please select your industry</div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="cust_6277">Issuing Unit</label>
+                            <input type="text" id="cust_6277" name="cust_6277" value="" class="form-control">
+                        </div>
+                    </div>
+                    
+                    <!-- Step 2: Contact Details -->
+                    <div class="form-step">
+                        <h2>Facility Request Details</h2>
+                        <p>Provide details about the trade finance facility you are seeking.</p>
+            
+                        <div class="form-group">
+                            <label for="email">Requested value of trade finance facility</label>
+                            <input type="text" id="email" name="email" class="form-control">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="facility">Type of facility (single use - revolving)</label>
+                            <select id="facility" name="facility" class="form-control">
+                                <option value="">Select facility</option>
+                                <option value="Sole Proprietorship">Single use</option>
+                                <option value="Sole Proprietorship">Revolving</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="purpose">Purpose of using the facility</label>
+                            <input type="text" id="purpose" name="purpose" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="purpose">Facility Usage Period (No. of Days)</label>
+                            <input type="number" id="purpose" name="purpose" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="purpose">Measures to Secure the Facility</label>
+                            <input type="text" id="purpose" name="purpose" class="form-control">
+                        </div>
+
+                    </div>
+                    
+                    <!-- Step 3: Trade Information -->
+                    <div class="form-step">
+                        <h2>Declarations</h2>
+                        <p>Commitments to process your request.</p>
+                        
+                        <div class="form-group">
+                            <label for="annualRevenue">Customer's Commitment</label>
+                            <input type="text" id="purpose" name="purpose" class="form-control">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="importExportCountries">Confirmation regarding product/service registration</label>
+                            <input type="text" id="importExportCountries" name="importExportCountries" class="form-control">
+                        </div>
+                    </div>
+                    
+                    <!-- Step 4: Requirements -->
+                    <div class="form-step">
+                        <h2>Transaction & Credit History</h2>
+                        <p>Help us understand your financial activity and eligibility for the Letter of Credit.</p>
+
+                        <div class="form-group">
+                            <label for="letterOfCreditRequirements">Foreign currency transfer turnover abroad via BIDV account in the previous year</label>
+                            <select id="facility" name="facility" class="form-control">
+                                <option value="">Select</option>
+                                <option value="Sole Proprietorship">From 10,000 USD to under 100,000 USD or equivalent in other foriegn currency/year</option>
+                                <option value="Sole Proprietorship">From 100,000 USD to 500,000 USD or equivalent in other foriegn currency/year</option>
+                                <option value="Sole Proprietorship">Over 500,000 USD or equivalent in other foriegn currency/year</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="tradeFinanceVolume">Have you used import L/C within the last 3 years?</label>
+                            <select id="tradeFinanceVolume" name="tradeFinanceVolume" class="form-control">
+                                <option value="">Select</option>
+                                <option value="Under $250K">Not used in the last 3 years</option>
+                                <option value="$250K - $500K">Used within the last 3 years</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="preferredCurrency">Do you have outstanding foreign currency loans according to the latest CIC lookup results within 1 year?</label>
+                            <select id="preferredCurrency" name="preferredCurrency" class="form-control">
+                                <option value="">Select</option>
+                                <option value="USD">Have outstanding foriegn currency loans at any credit institution including BIDV</option>
+                                <option value="EUR">Have no foreign currency loan balance but have VND loan balance at any credit institutions</option>
+                                <option value="GBP">No outstanding loans at any credit institution</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="additionalRequirements">Do you have a credit commitment relationship at any credit institutions according to the latest CIC records within 1 year?</label>
+                            <select id="preferredCurrency" name="preferredCurrency" class="form-control">
+                                <option value="">Select</option>
+                                <option value="USD">Have no credit commitment relationship</option>
+                                <option value="EUR">Have a credit commitment with a credit institution other than BIDV</option>
+                            </select>                        
+                        </div>
+
+                        <div class="form-group">
+                            <label for="additionalRequirements">Average value of a foreign currency transfer abroad of the customer in the previous year</label>
+                            <select id="preferredCurrency" name="preferredCurrency" class="form-control">
+                                <option value="">Select</option>
+                                <option value="USD">Average 10,000 USD or equivalent in other foreign currency or more</option>
+                                <option value="EUR">From 1,000 USD to under 10,000 USD/Transaction or equivalent in other foreign currency or more</option>
+                                <option value="EUR">From 100 USD to under 1,000 USD or equivalent in other foreign currency/transaction</option>
+                            </select>  
+                        </div>
+          
+                    </div>
+                    
+                    <div class="form-actions">
+                        <button type="button" class="btn btn-secondary btn-prev" style="display: none;">Previous</button>
+                        <button type="button" class="btn btn-primary btn-next">Next</button>
+                        <button type="submit" class="btn btn-primary btn-submit" name="submit" id="submit" value="Submit" onclick="return IsValidForm();" style="display: none;">Submit Application</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+    
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-copyright">
+                This website is a demonstration and does not offer actual products/services.
+                <div>
+                    All information is for illustrative purposes only. 
+                </div>
+            </div>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+    <script src="form.js"></script>
+    <script>
+        function UpdateProductName() { var prodObj = document.getElementById('Product'); var prodNameObj = document.getElementById('ProductName'); prodNameObj.value = 	prodObj.options[prodObj.selectedIndex].text; } function UpdateTerritoryName() { var terrObj = document.getElementById('Territory'); var terrNameObj = 	document.getElementById('TerritoryName'); terrNameObj.value = terrObj.options[terrObj.selectedIndex].text; } function IsValidForm() { var errMessage = ''; if ( 	document.getElementById('LName').value == '') { errMessage = 'Enter LastName.\n'; } if (document.getElementById('Company').value == '') { errMessage += 'Enter 	Company.\n'; } if ( !IsValidEmail() ) { errMessage += 'Not a valid EmailID.\n'; } if ( !IsValidWebURL() ) { errMessage += 'Not a valid WebUrl.\n'; } if ( 	errMessage != '' ){ alert(errMessage); return false; } return true; } 
+        function IsValidEmail() { if (document.getElementById('Email') == null) return true; var inem = document.getElementById("Email").value; if( inem != null && 	inem !='') { var filter=/^(\w+(?:\.\w+)*)@((?:\w+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i; if ( !filter.test(inem) ) return false; } return true; } 	function IsValidWebURL() { return true; var website = document.getElementById("Website").value; var URL = /^((file|http):\/\/\S)*$/; if ( !URL.test(website) ) 	return false; return true; }
+    </script>
+</body>
+</html>
